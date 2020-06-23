@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="appender1" class="ch.qos.logback.core.FileAppender">
+		<file>log1.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n
+			</pattern>
+		</encoder>
+	</appender>
+	<appender name="appender2" class="ch.qos.logback.core.FileAppender">
+		<file>log2.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n
+			</pattern>
+		</encoder>
+	</appender>
+	<appender name="appender3" class="ch.qos.logback.core.FileAppender">
+		<file>log3.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n
+			</pattern>
+		</encoder>
+	</appender>
+	<!-- additivity=false ensures "logger2" data only goes to the analytics 
+		log -->
+	<logger name="logger2" level="warn" additivity="false">
+		<appender-ref ref="appender2" />
+	</logger>
+	<logger name="logger3" level="info" additivity="false">
+		<appender-ref ref="appender3" />
+	</logger>
+	<root level="error">
+		<appender-ref ref="appender1" />
+	</root>
+</configuration>

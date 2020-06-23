@@ -1,0 +1,12 @@
+6471 [http-nio-8124-exec-1] INFO  logger3 - Student [fname=arun, lname=sai] 
+6472 [http-nio-8124-exec-1] INFO  logger3 - *************** 
+7053 [http-nio-8124-exec-2] INFO  logger3 - Student [fname=arun, lname=sai] 
+7053 [http-nio-8124-exec-2] INFO  logger3 - *************** 
+7284 [http-nio-8124-exec-3] INFO  logger3 - Student [fname=arun, lname=sai] 
+7284 [http-nio-8124-exec-3] INFO  logger3 - *************** 
+7417 [http-nio-8124-exec-4] INFO  logger3 - Student [fname=arun, lname=sai] 
+7417 [http-nio-8124-exec-4] INFO  logger3 - *************** 
+7648 [http-nio-8124-exec-5] INFO  logger3 - Student [fname=arun, lname=sai] 
+7648 [http-nio-8124-exec-5] INFO  logger3 - *************** 
+8027 [http-nio-8124-exec-6] INFO  logger3 - Student [fname=arun, lname=sai] 
+8028 [http-nio-8124-exec-6] INFO  logger3 - *************** 
